@@ -1,0 +1,12 @@
+body {
+  padding-top: 50px;
+}
+
+
+#viewPosts th {
+	text-align:center;
+}
+
+.create-post:after{
+   content: " \00BB";
+}
