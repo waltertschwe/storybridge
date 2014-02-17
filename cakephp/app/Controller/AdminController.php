@@ -40,7 +40,12 @@ class AdminController extends AppController {
 	public function pages($storyId) {
 		$this->layout = 'admin';
 		$story = $this->Story->find('first', array('conditions' => array( '_id' => $storyId)));
-		$pages = $story['Story']['page'];
+		if(isset($story['Story']['page'])) {
+			$pages = $story['Story']['page'];
+		} else {
+			$pages = array();
+		}
+		
 		$this->set('story', $story);
 		$this->set('pages', $pages);
 		

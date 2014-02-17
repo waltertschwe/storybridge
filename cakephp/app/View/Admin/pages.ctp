@@ -18,7 +18,10 @@
 		</tr>
 	</thead>
 	<tbody>
-	<?php foreach ($pages as $pageNumber => $value) { 
+	<?php 
+	
+		if(!empty($pages)) { 
+			foreach ($pages as $pageNumber => $value) { 
 		      $body = $value['body'];	
 			  $choice = $value['choice'];
 			  $desc = $value['desc'];
@@ -35,7 +38,10 @@
             </td>
 		</tr>
 
-	<?php } ?>
+	<?php 
+			}	
+		} 
+	?>
 	
 	</tbody>
 	<tfoot>

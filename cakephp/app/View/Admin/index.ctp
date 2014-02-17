@@ -29,13 +29,11 @@
             <td class="center">Published</td>
             <td class="center">  
             	<?php echo $this->Html->link('<span class="glyphicon glyphicon-link">', array('controller' => 'admin', 'action' => 'pages', $story['Story']['_id']), 
+            										array('class' => 'link', 'data-toggle' => 'tooltip', 'title' => 'pages', 'escape' => FALSE)); ?>							
+                <?php echo $this->Html->link('<span class="glyphicon glyphicon-trash">', array('controller' => 'admin', 'action' => 'deletestory', $story['Story']['_id']), 
             										array('class' => 'link', 'data-toggle' => 'tooltip', 'title' => 'pages', 'escape' => FALSE)); ?>
-											
-            	<a href="http://ec2-50-19-187-57.compute-1.amazonaws.com/people-front-end/reluctant-father.php" class="link" data-toggle="tooltip" title="Publish" target="_blank"><span class="glyphicon glyphicon-home"></a>
-            	<!-- <a href="" class="link" data-toggle="tooltip" title="Publish"><span class="glyphicon glyphicon-trash"></a> -->
-            	<?php echo $this->Html->link('<span class="glyphicon glyphicon-trash">', array('controller' => 'admin', 'action' => 'deletestory', $story['Story']['_id']), 
-            										array('class' => 'link', 'data-toggle' => 'tooltip', 'title' => 'pages', 'escape' => FALSE)); ?>
-					
+            	<?php echo $this->Html->link('<span class="glyphicon glyphicon-home">', array('controller' => 'story', 'action' => 'index', $story['Story']['_id']), 
+            										array('class' => 'link', 'data-toggle' => 'tooltip', 'title' => 'pages', 'escape' => FALSE)); ?>	
             </td>
 		</tr>
 
