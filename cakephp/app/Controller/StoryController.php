@@ -21,7 +21,8 @@ class StoryController extends AppController {
 		$story = $this->Story->find('first', array('conditions' => array('_id' => $storyId)));
 		
 		$pagesData = $story['Story']['page'];
-		$page = $pagesData[$page];
+	
+		$page = $pagesData[$page]['body'];
 		
 		$this->set('page', $page);
 		

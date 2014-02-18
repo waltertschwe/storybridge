@@ -87,6 +87,39 @@ class AdminController extends AppController {
 			
 		}
 	}
+
+	public function pageedit($storyId, $pageNumber) {
+		
+		$this->layout = 'admin-editor';
+		
+		$story = $this->Story->find('first', array('conditions' => array('_id' => $storyId)));
+		$pages = $story['Story']['page'];
+		
+		$pageNumber = 1;
+		$pageData = $pages[$pageNumber]['body'];
+		
+		## Page POST
+		if (!empty($this->data)) {
+			$pageNumber = $this->request->data['Page']['page-number'];
+			$desc       = $this->request->data['Page']['desc'];
+			$body       = $this->request->data['Page']['body'];
+			$story['Story']['page'][$pageNumber] = array('desc' => $desc, 'body' => $body, 'choice' => 'false');
+			
+			if ($this->Story->save($story)) {
+				$this->Session->setFlash(__('Your Page has been updated!'));
+			} else {
+				$this->Session->setFlash(__('Page update failed'));
+			}
+			
+	
+			
+		}
+		
+		$this->set('pageNumber', $pageNumber);
+		$this->set('storyId', $storyId);
+		$this->set('page', $pageData);
+		
+	}
 	
 }
 

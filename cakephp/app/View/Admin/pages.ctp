@@ -32,8 +32,9 @@
             <td class="center"><?php echo $body; ?></td>
             <td class="center"><?php echo $choice; ?></td>
             <td class="center">  
-            	<a href="" class="link" data-toggle="tooltip" title="Preview" target="_blank"><span class="glyphicon glyphicon-link"></a>
-            	<a href="" class="link" data-toggle="tooltip" title="Publish" target="_blank"><span class="glyphicon glyphicon-home"></a>
+            <?php echo $this->Html->link('<span class="glyphicon glyphicon-link">', array('controller' => 'admin', 'action' => 'pageedit', $story['Story']['_id'], $pageNumber), 
+            									array('class' => 'link', 'data-toggle' => 'tooltip', 'title' => 'pages', 'escape' => FALSE)); ?>				
+               	<a href="" class="link" data-toggle="tooltip" title="Publish" target="_blank"><span class="glyphicon glyphicon-home"></a>
             	<a href="" class="link" data-toggle="tooltip" title="Publish"><span class="glyphicon glyphicon-trash"></a>
             </td>
 		</tr>
