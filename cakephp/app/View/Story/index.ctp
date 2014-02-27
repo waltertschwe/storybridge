@@ -1,14 +1,17 @@
-
 	<div class="row clearfix">
 		<div class="col-md-12 column">
 			<div class="page-header">
 				<h1>
-					Example page header <small>Subtext for header</small>
+					<?php echo $pageInfo['storyName']; ?> <small>Page: <?php echo $pageInfo['currentPageNumber']; ?></small>
 				</h1>
 			</div>
 			<div class="row clearfix">
 				<div class="col-md-8 column">
 					<?php echo $page; ?>
+					<?php if (!empty($previousPage)) { ?> 
+					<a href="/storybridge/cakephp/story/index/<?php echo $storyId;?>/<?php echo $previousPage; ?>"><button class="btn btn-primary"><span class="glyphicon glyphicon-arrow-left"></span>&nbsp; Back</button></a>
+					<?php } ?>
+					<a href="/storybridge/cakephp/story/index/<?php echo $storyId;?>/<?php echo $nextPage; ?>"><button class="btn btn-primary">Next &nbsp;<span class="glyphicon glyphicon-arrow-right"></span></button></a>
 				</div>
 				<div class="col-md-4 column">
 					<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>

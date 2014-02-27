@@ -29,11 +29,16 @@ class AdminController extends AppController {
 	
 	public function deleteStory($storyId) {
 		$this->layout = 'admin';
+		/*
+		
+		 
 		if ($this->Story->delete($storyId)) {
 			echo "story deleted";
 		} else {
 			echo "story was not deleted";
 		}
+		 * 
+		 */
 	}
 	
 	// PAGES CONTROLLERS
@@ -110,9 +115,6 @@ class AdminController extends AppController {
 			} else {
 				$this->Session->setFlash(__('Page update failed'));
 			}
-			
-	
-			
 		}
 		
 		$this->set('pageNumber', $pageNumber);

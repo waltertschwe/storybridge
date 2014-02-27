@@ -10,17 +10,18 @@
       </ol>
       <div class="carousel-inner">
         <div class="item active">
-          <img data-src="holder.js/900x500/auto/#777:#7a7a7a/text:First slide" alt="First slide">
+          <?php echo $this->Html->image('story-1-900x500.jpg', array('alt' => 'story 2', 'width' => '900', 'height' => '500')); ?>
           <div class="container">
             <div class="carousel-caption">
-              <h1>Enjoy interactive stories for all ages!</h1>
-              <p>Storybridge allows <code>YOU</code> to be part of the story.  Earn badges, </p>
+              <h1>Help your kids read above their grade level.</h1>
+              <p><code>Parents take the tour today!</code></p>
               <p><a class="btn btn-lg btn-primary" href="#" role="button">Sign up today</a></p>
             </div>
           </div>
         </div>
         <div class="item">
-          <img data-src="holder.js/900x500/auto/#666:#6a6a6a/text:Second slide" alt="Second slide">
+        	<?php echo $this->Html->image('story-2-900x500.jpg', array('alt' => 'story 2', 'width' => '900', 'height' => '500')); ?>
+         <!-- <img data-src="holder.js/900x500/auto/#666:#6a6a6a/text:Second slide" alt="Second slide"> -->
           <div class="container">
             <div class="carousel-caption">
               <h1>Try the demo!</h1>
@@ -30,7 +31,7 @@
           </div>
         </div>
         <div class="item">
-          <img data-src="holder.js/900x500/auto/#555:#5a5a5a/text:Third slide" alt="Third slide">
+           <?php echo $this->Html->image('story-3-900x500.jpg', array('alt' => 'CakePHP')); ?>
           <div class="container">
             <div class="carousel-caption">
               <h1>Always be Storytelling!</h1>
@@ -55,10 +56,11 @@
       <!-- Three columns of text below the carousel -->
       <div class="row">
         <div class="col-lg-4">
-          <img class="img-circle" data-src="holder.js/140x140" alt="Generic placeholder image">
-          <h2>Tim and the </h2>
-          <p>Tim finds his true identity and discovers he's the only one that can save his world from destruction by outside forces. </p>
-          <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+          <?php echo $this->Html->image('tunnel-1.jpg', array('alt' => 'story 2', 'width' => '320', 'height' => '240')); ?>
+          <!-- <img class="img-circle" data-src="holder.js/140x140" alt="Generic placeholder image"> -->
+          <h2>Tim and the Time Tunnel</h2>
+          <p>This first book in a series of five introduces us to Tim. </p>
+          <p><a class="btn btn-default" href="#" role="button">Adventure with Tim! &raquo;</a></p>
         </div><!-- /.col-lg-4 -->
         <div class="col-lg-4">
           <img class="img-circle" data-src="holder.js/140x140" alt="Generic placeholder image">
