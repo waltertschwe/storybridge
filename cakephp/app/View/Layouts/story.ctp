@@ -27,3 +27,5 @@
   
 <!-- Navigation bar /View/Elements/nav_bar.ctp -->
 	<?php echo $this->element('story_nav'); ?>
+<!-- Login /View/Elements/modal_login.ctp -->	
+	<?php echo $this->element('modal_signup'); ?>

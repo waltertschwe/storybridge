@@ -34,6 +34,9 @@
 	<!-- Navigation bar /View/Elements/story_nav.ctp -->
 	<?php echo $this->element('story_nav'); ?>
 	
+	<!-- Login /View/Elements/modal_login.ctp -->	
+	<?php echo $this->element('modal_signup'); ?>
+	
 	<?php echo $this->fetch('content'); ?>
 	
  	<script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>

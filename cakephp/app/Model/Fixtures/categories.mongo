@@ -1,0 +1,11 @@
+db.categories.insert({ "catShortName" : "picture_books", "catName" : "Picture Books", "desc" : "These stories concentrate more on the illustrations than on the text. The text of the story compliments the artwork rather than the pictures adding to the story."})
+db.categories.insert({ "catShortName" : "rhythmic_books", "catName" : "Rhythmic Books", "desc" : "These books usually rhyme or have a musical component. Popular examples of these books are Green Eggs and Ham and The Cat in the Hat by Dr. Seuss. This genre also includes nursery rhymes and lullabies."})
+db.categories.insert({ "catShortName" : "folklore", "catName" : "Folklore", "desc : "ales such as these have been passed down through generations and oral traditions for centuries. Tomie dePaola, an author-illustrator, frequently uses folktales to create stories for children. Myths are often paired with folklore, and these stories specifically attempt to explain different aspects of life. The goal of these stories is to pass down knowledge to younger generations."})
+db.categories.insert({ "catShortName" : "fairytales", "catName" :"Fairytales"
+db.categories.insert({ "catShortName" :
+db.categories.insert({ "catShortName" :
+db.categories.insert({ "catShortName" :
+db.categories.insert({ "catShortName" :
+db.categories.insert({ "catShortName" :
+db.categories.insert({ "catShortName" :
+db.categories.insert({ "catShortName" :

@@ -60,19 +60,22 @@
           <!-- <img class="img-circle" data-src="holder.js/140x140" alt="Generic placeholder image"> -->
           <h2>Tim and the Time Tunnel</h2>
           <p>This first book in a series of five introduces us to Tim. </p>
-          <p><a class="btn btn-default" href="#" role="button">Adventure with Tim! &raquo;</a></p>
+          <p><a class="btn btn-default" href="#" role="button">Read Book! &raquo;</a></p>
         </div><!-- /.col-lg-4 -->
         <div class="col-lg-4">
-          <img class="img-circle" data-src="holder.js/140x140" alt="Generic placeholder image">
-          <h2>Heading</h2>
+          <?php echo $this->Html->image('sandcastle.jpg', array('alt' => 'story 2', 'width' => '320', 'height' => '240')); ?>
+          <h2>The Sandcastle Storybook</h2>
           <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras mattis consectetur purus sit amet fermentum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</p>
-          <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+          <p><a class="btn btn-default" href="#" role="button">Read Book! &raquo;</a></p>
         </div><!-- /.col-lg-4 -->
         <div class="col-lg-4">
-          <img class="img-circle" data-src="holder.js/140x140" alt="Generic placeholder image">
-          <h2>Heading</h2>
-          <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
-          <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+          <?php echo $this->Html->image('magic-box.jpg', array('alt' => 'story 2', 'width' => '320', 'height' => '240')); ?>
+          <h2>
+          	<?php echo $this->Html->link('X Dare and The Keys to Nin', array('controller' => 'story', 'action' => 'index', '5327339eca50a95246dc478d')); ?>
+          	</h2>
+          <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. 
+          	Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. by PK Herzo</p>
+          <p><a class="btn btn-default" href="#" role="button">Read Book! &raquo;</a></p>
         </div><!-- /.col-lg-4 -->
       </div><!-- /.row -->
 
@@ -83,11 +86,14 @@
 
       <div class="row featurette">
         <div class="col-md-7">
-          <h2 class="featurette-heading">First featurette heading. <span class="text-muted">It'll blow your mind.</span></h2>
-          <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+          <h2 class="featurette-heading">Traditional Storytelling vs. StoryPath <span class="text-muted"></span></h2>
+          <p class="lead">Explore tradional stories that read just like a book... or try our path based material where you control the outcome.
+          	Your choices will decide the next page you read and the eventual outcome of the story.
+          </p>
         </div>
         <div class="col-md-5">
-          <img class="featurette-image img-responsive" data-src="holder.js/500x500/auto" alt="Generic placeholder image">
+        	 <?php echo $this->Html->image('fork-road.jpg', array('alt' => 'story 2', 'width' => '500', 'height' => '500')); ?>
+          <!-- <img class="featurette-image img-responsive" data-src="holder.js/500x500/auto" alt="Generic placeholder image"> -->
         </div>
       </div>
 
@@ -95,11 +101,11 @@
 
       <div class="row featurette">
         <div class="col-md-5">
-          <img class="featurette-image img-responsive" data-src="holder.js/500x500/auto" alt="Generic placeholder image">
+           <?php echo $this->Html->image('treasure-chest.gif', array('alt' => 'story 2', 'width' => '500', 'height' => '500')); ?>
         </div>
         <div class="col-md-7">
-          <h2 class="featurette-heading">Oh yeah, it's that good. <span class="text-muted">See for yourself.</span></h2>
-          <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+          <h2 class="featurette-heading">The more you read the more you earn. <span class="text-muted"></span></h2>
+          <p class="lead">Earn badges and discover treasure along the way.  Treasure points can be used as real money to unlock paid content.</p>
         </div>
       </div>
 
@@ -107,8 +113,8 @@
 
       <div class="row featurette">
         <div class="col-md-7">
-          <h2 class="featurette-heading">And lastly, this one. <span class="text-muted">Checkmate.</span></h2>
-          <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+          <h2 class="featurette-heading"></h2>
+          <p class="lead"></p>
         </div>
         <div class="col-md-5">
           <img class="featurette-image img-responsive" data-src="holder.js/500x500/auto" alt="Generic placeholder image">

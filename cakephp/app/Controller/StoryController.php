@@ -9,8 +9,13 @@ class StoryController extends AppController {
 		
 	public $name = 'Story';	
 	
+	public function beforeFilter() {
+		$this->Auth->allow('home','index');
+	}
+	
 	public function home () {
 		$this->layout = 'home';
+		
 	}
 	
 	public function index ($storyId = null, $pageNumber = null ) {

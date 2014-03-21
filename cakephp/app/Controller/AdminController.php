@@ -5,6 +5,11 @@ class AdminController extends AppController {
 	
 	public $uses = array('Story');
 	
+	public function beforeFilter() {
+		
+	}
+	
+	
 	// STORY CONTROLLERS
 	public function index() {
 		$this->layout = 'admin';
