@@ -7,8 +7,9 @@
     <meta name="description" content="">
     <meta name="author" content="">
     <link rel="shortcut icon" href="../../docs-assets/ico/favicon.png">
+    <meta name="google-site-verification" content="CRi45TwNsElU_-C8QZLy9Q_S6J3PrxvLAmPe6XMwVRo" />
 
-    <title>StoryBridge</title>
+    <title>StoryMyth</title>
 
     <!-- Bootstrap core CSS -->
     <?php echo $this->Html->css('bootstrap.min'); ?>
@@ -26,8 +27,14 @@
       <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
     <![endif]-->
 
+
+	<!-- Global CSS -->
+	<?php echo $this->Html->css('global'); ?>
+	
     <!-- Custom styles for this template -->
      <?php echo $this->Html->css('custom-carousel.css'); ?>
+     
+    
   </head>
 <body>
 	
@@ -40,9 +47,11 @@
 	<?php echo $this->fetch('content'); ?>
 	
  	<script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+ 	
 	<?php echo $this->Html->script('bootstrap.min.js'); ?>
 	<?php echo $this->Html->script('custom.js'); ?>
 	<?php echo $this->Html->script('holder.js'); ?>
+	<?php echo $this->Html->script('global.js'); ?>
 	
 </body>
 </html>

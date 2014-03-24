@@ -13,8 +13,8 @@
           <?php echo $this->Html->image('story-1-900x500.jpg', array('alt' => 'story 2', 'width' => '900', 'height' => '500')); ?>
           <div class="container">
             <div class="carousel-caption">
-              <h1>Help your kids read above their grade level.</h1>
-              <p><code>Parents take the tour today!</code></p>
+              <h1>We bring together great authors and their stories...</h1>
+              <p><code>Make reading exciting again!</code></p>
               <p><a class="btn btn-lg btn-primary" href="#" role="button">Sign up today</a></p>
             </div>
           </div>
@@ -34,8 +34,8 @@
            <?php echo $this->Html->image('story-3-900x500.jpg', array('alt' => 'CakePHP')); ?>
           <div class="container">
             <div class="carousel-caption">
-              <h1>Always be Storytelling!</h1>
-              <p>You're just one step away from enjoying some of the most exciting reading material out there.</p>
+              <h1>There's a story out there for everyone. Find it!</h1>
+              <p></p>
               <p><a class="btn btn-lg btn-primary" href="#" role="button">Sign up</a></p>
             </div>
           </div>
@@ -74,7 +74,7 @@
           	<?php echo $this->Html->link('X Dare and The Keys to Nin', array('controller' => 'story', 'action' => 'index', '5327339eca50a95246dc478d')); ?>
           	</h2>
           <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. 
-          	Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. by PK Herzo</p>
+          	Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. by PK HREZO</p>
           <p><a class="btn btn-default" href="#" role="button">Read Book! &raquo;</a></p>
         </div><!-- /.col-lg-4 -->
       </div><!-- /.row -->

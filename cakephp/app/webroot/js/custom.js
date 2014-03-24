@@ -3,6 +3,17 @@ $(document).ready(function() {
      "sDom": '<"top"iflp<"clear">>rt<"bottom"iflp<"clear">>'
     });
     
+    
+    $('form').on('submit',function(){
+	   if($('#pass').val()!=$('#cpass').val()){
+	       alert('Passwords do not match');
+	       return false;
+	   }
+	   return true;
+	});
+    
+    
+    
 });
 
 $('#myCarousel').carousel({  

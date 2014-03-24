@@ -1,5 +1,5 @@
 <!-- Fixed navbar -->
-    <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+   <div class="navbar navbar-inverse navbar-fixed-top" role="navigation"> 
       <div class="container">
         <div class="navbar-header">
           <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
@@ -8,12 +8,11 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="#">StoryBridge</a>
+          <a class="navbar-brand" href="#">StoryMyth</a>
         </div>
         <div class="navbar-collapse collapse">
           <ul class="nav navbar-nav">
           	<li class="active"><a href="/storybridge/cakephp/admin">Dashboard</a></li>
-     
             <li class="dropdown">
             <?php echo $this->Html->link('Author Admin<b class="caret"></b>', array('controller' => 'adminusers', 'action' => 'index'), 
             										array('class' => 'dropdown-toggle', 'data-toggle' => 'dropdown',  'escape' => FALSE)); ?>							
@@ -37,3 +36,4 @@
         </div><!--/.nav-collapse -->
       </div>
     </div>
+   </nav>

@@ -8,7 +8,7 @@
     <meta name="author" content="">
     <link rel="shortcut icon" href="../../docs-assets/ico/favicon.png">
 
-    <title>StoryBridge - Admin</title>
+    <title>StoryMyth - Admin</title>
 
     <!-- Bootstrap core CSS -->
    <?php echo $this->Html->css('bootstrap.min'); ?>
@@ -23,6 +23,9 @@
     
     <!-- Administration CSS -->
     <?php echo $this->Html->css('admin'); ?>
+
+	<!-- Global CSS -->
+	<?php echo $this->Html->css('global'); ?>
 
     <!-- Custom styles for this template -->
     <?php echo $this->Html->css('signin'); ?>
@@ -51,7 +54,7 @@
   		<script src="http://code.jquery.com/ui/1.10.1/jquery-ui.js"></script>
 	   <?php echo $this->Html->script('bootstrap.min.js'); ?>
 	   <?php echo $this->Html->script('jquery.dataTables.min.js'); ?>
-	   <?php echo $this->Html->script('custom.js'); ?>
+	   <?php echo $this->Html->script('global.js'); ?>
 </body>
 </html>
 
