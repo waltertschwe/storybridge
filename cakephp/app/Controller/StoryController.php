@@ -19,7 +19,7 @@ class StoryController extends AppController {
 	}
 	
 	public function index ($storyId = null, $pageNumber = null ) {
-		$this->layout = 'admin';
+		$this->layout = 'story';
 		
 		if(empty($pageNumber)) {
 			$pageNumber = 1;
@@ -32,7 +32,6 @@ class StoryController extends AppController {
 				$previousPage = 0;
 				
 			} else {
-					echo "here";
 				$currentPage = $pageNumber;
 				$previousPage = $pageNumber - 1;
 			}
@@ -60,6 +59,10 @@ class StoryController extends AppController {
 	}
 	
 	public function category( $categoryName = null) {
+		
+	}
+	
+	public function browse () {
 		
 	}
 	
