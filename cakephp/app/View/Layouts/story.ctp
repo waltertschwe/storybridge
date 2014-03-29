@@ -51,10 +51,10 @@
 	</div>
 	
 	<script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
-  		<script src="http://code.jquery.com/ui/1.10.1/jquery-ui.js"></script>
-	   <?php echo $this->Html->script('bootstrap.min.js'); ?>
-	   <?php echo $this->Html->script('jquery.dataTables.min.js'); ?>
-	   <?php echo $this->Html->script('global.js'); ?>
+  	<script src="http://code.jquery.com/ui/1.10.1/jquery-ui.js"></script>
+	<?php echo $this->Html->script('bootstrap.min.js'); ?>
+	<?php echo $this->Html->script('jquery.dataTables.min.js'); ?>
+	<?php echo $this->Html->script('custom.js'); ?>
 </body>
 </html>
 

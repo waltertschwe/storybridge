@@ -63,7 +63,7 @@ class StoryController extends AppController {
 	}
 	
 	public function browse () {
-		
+		$this->layout = 'browse';
 	}
 	
 }

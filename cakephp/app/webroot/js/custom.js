@@ -11,11 +11,17 @@ $(document).ready(function() {
 	   }
 	   return true;
 	});
-    
-    
+	
+	
     
 });
 
 $('#myCarousel').carousel({  
   interval: 5000 // in milliseconds  
 }) 
+
+$(function(){
+	$('#user-signup').on("click", function(){
+		alert("You have signed up!");
+    });
+});

@@ -52,6 +52,23 @@
     <!-- Wrap the rest of the page in another container to center all the content. -->
 
     <div class="container marketing">
+    	<div class="row">
+    		
+    		 <div class="col-xs-6 col-md-4">
+    			<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+				<!-- Story Myth Home -->
+				<ins class="adsbygoogle"
+				     style="display:inline-block;width:970px;height:90px"
+				     data-ad-client="ca-pub-3618325500731081"
+				     data-ad-slot="1816353379"></ins>
+				<script>
+				(adsbygoogle = window.adsbygoogle || []).push({});
+				</script>
+    		</div>
+    		
+    	</div>
+    	
+    	<hr class="featurette-divider">
 
       <!-- Three columns of text below the carousel -->
       <div class="row">
