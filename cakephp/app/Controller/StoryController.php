@@ -62,9 +62,12 @@ class StoryController extends AppController {
 		
 	}
 	
-	public function browse () {
+	public function browsecategory () {
 		$this->layout = 'browse';
 	}
 	
+	public function browseage () {
+		$this->layout = 'browse';
+	}
 }
 	

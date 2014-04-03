@@ -7,13 +7,22 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="#">StoryMyth</a>
+          <a class="navbar-brand" href="http://storymyth.com"><span class="glyphicon glyphicon-home">StoryMyth</a>
         </div>
         <div class="navbar-collapse collapse">
         	<ul class="nav navbar-nav navbar-right">
-            <li><a href="#">Browse Books</a></li>
-            <li><a href="#">Your Profile</a></li>
-            <li><a href="#">About</a></li>
+            <!--<li><a href="#">About</a></li>-->
+             <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Browse <b class="caret"></b></a>
+                <ul class="dropdown-menu">
+                  <li><a href="/story/browsecategory/">By Category</a></li>
+                  <li><a href="/story/browseage/">By Age Group</a></li>
+                  <!--<li class="divider"></li>
+                  <li class="dropdown-header">Nav header</li>
+                  <li><a href="#">Separated link</a></li>
+                  <li><a href="#">One more separated link</a></li>-->
+                </ul>
+              </li>
             <li><a href="#" data-toggle="modal" data-target="#signup">Sign Up</a></li>
           </ul>
           <form class="navbar-form navbar-right" role="form">

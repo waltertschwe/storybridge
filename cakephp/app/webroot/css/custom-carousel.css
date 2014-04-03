@@ -50,12 +50,22 @@ body {
   height: 500px;
   background-color: #777;
 }
+
+
 .carousel-inner > .item > img {
   position: absolute;
   top: 0;
   left: 0;
-  min-width: 100%;
+  min-width: 75%;
   height: 500px;
+}
+
+#myCarousel .carousel-inner {
+	overflow: hidden;
+	position: relative;
+	width: 75%;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 
