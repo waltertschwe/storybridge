@@ -8,7 +8,7 @@
     <meta name="author" content="">
     <link rel="shortcut icon" href="../../docs-assets/ico/favicon.png">
 
-    <title>StoryMyth - Admin</title>
+    <title>StoryMyth - Browse</title>
 
     <!-- Bootstrap core CSS -->
    <?php echo $this->Html->css('bootstrap.min'); ?>
@@ -62,7 +62,12 @@
 	<!-- Microfiche JS -->
 	<?php echo $this->Html->script('microfiche.js'); ?>
 	 <script>
-		$('#browse-1').microfiche({ cyclic  : true })
+		$('#browse-1').microfiche({ cyclic  : true });
+		$('#browse-2').microfiche({ cyclic  : true });
+		$('#browse-3').microfiche({ cyclic  : true });
+		$('#browse-4').microfiche({ cyclic  : true });
+		$('#browse-5').microfiche({ cyclic  : true });
+		$('#browse-6').microfiche({ cyclic  : true });
 	</script>
 	
 </body>

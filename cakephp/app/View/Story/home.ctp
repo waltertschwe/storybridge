@@ -10,7 +10,7 @@
       </ol>
       <div class="carousel-inner">
         <div class="item active">
-          <?php echo $this->Html->image('story-1-900x500.jpg', array('alt' => 'story 2', 'width' => '900', 'height' => '500')); ?>
+          <?php echo $this->Html->image('story-1-900x500.jpg', array('alt' => 'story 2')); ?>
           <div class="container">
             <div class="carousel-caption">
               <h1>We bring together great authors and their stories...</h1>
@@ -20,7 +20,7 @@
           </div>
         </div>
         <div class="item">
-        	<?php echo $this->Html->image('story-2-900x500.jpg', array('alt' => 'story 2', 'width' => '900', 'height' => '500')); ?>
+        	<?php echo $this->Html->image('story-2-900x500.jpg', array('alt' => 'story 2')); ?>
          <!-- <img data-src="holder.js/900x500/auto/#666:#6a6a6a/text:Second slide" alt="Second slide"> -->
           <div class="container">
             <div class="carousel-caption">
